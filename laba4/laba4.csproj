@@ -66,6 +66,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -79,6 +80,39 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\автобус.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\внедорожник.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\газотурбинный.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\горный.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\городской.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\грузовик.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\детский.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\легковая.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ракетный.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\турбовинтовой.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Без названия.jfif" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

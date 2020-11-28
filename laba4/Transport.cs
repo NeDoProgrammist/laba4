@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace laba4
 {
-    public class Transport 
+    public class Transport  //общий класс для всего транспорта
     {
         public static Random rnd = new Random();
         public int wheels = 0;
-        public virtual String GetInfo()
+        public virtual String GetInfo() //колчисетво колёс
         {
             var str = String.Format("\nКоличество колёс: {0}", this.wheels);
             return str;
@@ -23,10 +23,10 @@ namespace laba4
     {
         public PlaneEngineType engine = PlaneEngineType.газотурбинный;
         public int maxFlight = 0; // максимальная высота полёта
-        public override String GetInfo()
+        public override String GetInfo() //переопределение метода
         {
-            var str = "Самолёт";
-            str += base.GetInfo();
+            var str = "Самолёт ";
+            str += base.GetInfo(); //вызов базового метода GetInfo(), который выше, для получения количества колес
             str += String.Format("\nТип двигателя:\n{0}", this.engine);
             str += String.Format("\nМакс. высота:\n{0}", this.maxFlight);
             return str;
@@ -48,10 +48,10 @@ namespace laba4
     {
         public BicycleType type = BicycleType.горный;
         public int rad = 0; // радиус колёс
-        public override String GetInfo()
+        public override String GetInfo() //переопределение метода
         {
-            var str = "Велосипед";
-            str += base.GetInfo(); // и тут так же
+            var str = "Велосипед ";
+            str += base.GetInfo(); //вызов базового метода GetInfo(), который выше, для получения количества колес
             str += String.Format("\nТип:\n{0}", this.type);
             str += String.Format("\nРадиус колёс:\n{0}", this.rad);
             return str;
@@ -74,10 +74,10 @@ namespace laba4
         public CarType type = CarType.автобус;
         public int vEngine = 0; // объём двигателя
         public int door = 0; // количество дверей
-        public override String GetInfo()
+        public override String GetInfo() //переопределение метода
         {
-            var str = "Автомобиль";
-            str += base.GetInfo(); // и тут так же
+            var str = "Автомобиль ";
+            str += base.GetInfo(); //вызов базового метода GetInfo(), который выше, для получения количества колес
             str += String.Format("\nТип:\n{0}", this.type);
             str += String.Format("\nОбъём двигателя:\n{0}", this.vEngine);
             str += String.Format("\nКоличество дверей:\n{0}", this.door);
@@ -85,6 +85,7 @@ namespace laba4
         }
         public static Car Generate()
         {
+            
             return new Car
             {
                 wheels = 4,
@@ -94,4 +95,6 @@ namespace laba4
             };
         }
     }
+
+
 }

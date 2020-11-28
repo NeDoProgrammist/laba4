@@ -46,10 +46,29 @@ namespace laba4
             if (this.trList.Count == 0)
             {
                 txtOut.Text = "Пусто";
+                pictureBox1.Image = Properties.Resources.Без_названия;
                 return;
             }
 
             var transp = this.trList[0];
+            string str = trList[0].ToString();
+            string[] words = str.Split('.');
+
+            foreach (var word in words) //выбор картинки
+            {
+                if (words[1] == "Plane")
+                {
+                    pictureBox1.Image = Properties.Resources.ракетный;
+                }
+                else if (words[1] == "Bicycle")
+                {
+                    pictureBox1.Image = Properties.Resources.горный;
+                }
+                else if (words[1] == "Car")
+                {
+                    pictureBox1.Image = Properties.Resources.внедорожник;
+                }
+            }
             this.trList.RemoveAt(0);
 
             // ЗАМЕНИЛ НАШИ if`ы
@@ -60,7 +79,7 @@ namespace laba4
 
         private void ShowInfo()
         {
-            // заведем счетчики под каждый тип
+            //счетчики под каждый тип
             int planeCount = 0;
             int bicycleCount = 0;
             int carCount = 0;
@@ -68,11 +87,7 @@ namespace laba4
             // пройдемся по всему списку
             foreach (var transp in this.trList)
             {
-                // помните, что в списки у нас лежат фрукты,
-                // то есть объекты типа Fruit
-                // поэтому чтобы проверить какой именно фрукт
-                // мы в данный момент обозреваем, мы используем ключевое слово is
-                if (transp is Plane) // читается почти как чистый инглиш, "если fruit есть Мандарин"
+                if (transp is Plane)
                 {
                     planeCount += 1;
                 }
@@ -86,8 +101,7 @@ namespace laba4
                 }
             }
 
-            // а ну и вывести все это надо на форму
-            txtInfo.Text = "Самолёт\tВелосипед Автомобиль"; // буквы экономлю, чтобы влезло на форму
+            txtInfo.Text = "Самолёт\tВелосипед Автомобиль";
             txtInfo.Text += "\n";
             txtInfo.Text += String.Format("{0}\t{1}\t   {2}", planeCount, bicycleCount, carCount);
         }
