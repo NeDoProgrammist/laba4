@@ -118,35 +118,14 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="детский" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\детский.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="горный" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\горный.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="турбовинтовой" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\турбовинтовой.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="городской" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\городской.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="ракетный" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ракетный.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="легковая" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\легковая.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="грузовик" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\грузовик.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
+  </data> 
   <data name="внедорожник" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\внедорожник.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="автобус" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\автобус.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="газотурбинный" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\газотурбинный.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Без названия" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Без названия.jfif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>

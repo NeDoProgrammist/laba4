@@ -63,16 +63,6 @@ namespace laba4.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap автобус {
-            get {
-                object obj = ResourceManager.GetObject("автобус", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
-        /// </summary>
         internal static System.Drawing.Bitmap Без_названия {
             get {
                 object obj = ResourceManager.GetObject("Без названия", resourceCulture);
@@ -93,16 +83,6 @@ namespace laba4.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap газотурбинный {
-            get {
-                object obj = ResourceManager.GetObject("газотурбинный", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
-        /// </summary>
         internal static System.Drawing.Bitmap горный {
             get {
                 object obj = ResourceManager.GetObject("горный", resourceCulture);
@@ -113,59 +93,9 @@ namespace laba4.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap городской {
-            get {
-                object obj = ResourceManager.GetObject("городской", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap грузовик {
-            get {
-                object obj = ResourceManager.GetObject("грузовик", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap детский {
-            get {
-                object obj = ResourceManager.GetObject("детский", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap легковая {
-            get {
-                object obj = ResourceManager.GetObject("легковая", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
-        /// </summary>
         internal static System.Drawing.Bitmap ракетный {
             get {
                 object obj = ResourceManager.GetObject("ракетный", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap турбовинтовой {
-            get {
-                object obj = ResourceManager.GetObject("турбовинтовой", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
